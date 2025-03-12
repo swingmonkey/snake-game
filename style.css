@@ -1,0 +1,30 @@
+.game-container {
+  position: relative;
+  width: 400px;
+  margin: 20px auto;
+}
+
+#gameCanvas {
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+}
+
+.score-board {
+  font-size: 24px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.restart-btn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.restart-btn:hover {
+  background-color: #45a049;
+}
